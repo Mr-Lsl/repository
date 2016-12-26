@@ -1,0 +1,149 @@
+@charset "UTF-8";
+html {
+  font-size: 10px; }
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+@media (max-width: 375px) {
+  html {
+    font-size: 5.5px; } }
+@media (min-width: 375px) and (max-width: 414px) {
+  html {
+    font-size: 10px; } }
+@media (min-width: 414px) and (max-width: 768px) {
+  html {
+    font-size: 12.5px; } }
+@media (min-width: 768px) {
+  html {
+    font-size: 15px; } }
+header {
+  font-family: "Adobe 锟斤拷锟斤拷 Std R";
+  color: #fff;
+  font-weight: bolder; }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: hotpink;
+    height: 4.4rem;
+    line-height: 4.4rem; }
+    header ul li {
+      display: flex; }
+      header ul li i {
+        margin-top: 1.3rem;
+        padding-right: 1rem; }
+      header ul li span {
+        margin-right: 1rem; }
+    header ul .heade {
+      width: 3rem;
+      height: 3rem; }
+      header ul .heade img {
+        border-radius: 100%;
+        width: 100%;
+        height: 100%; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex: 1; }
+  section .style {
+    font-family: "微锟斤拷锟脚猴拷 Regular";
+    background-color: hotpink;
+    color: #fff; }
+    section .style .on {
+      border-bottom: 2px solid #fff; }
+    section .style li {
+      height: 2.6rem;
+      line-height: 2.6rem;
+      font-weight: bolder;
+      font-size: 1.4rem;
+      padding-left: 0;
+      padding-right: 0; }
+      section .style li i {
+        position: absolute;
+        transform: rotate(-45deg);
+        right: 0.9rem;
+        bottom: 0.2rem; }
+    section .style li:hover {
+      border-bottom: 2px solid #fff; }
+  section .figure img {
+    width: 100%;
+    height: 100%; }
+  section .title {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-weight: bolder;
+    font-size: 1.8rem; }
+    section .title span {
+      height: 3rem;
+      width: 3rem;
+      display: inline-block;
+      margin-right: 1rem; }
+      section .title span img {
+        height: 100%;
+        width: 100%;
+        border-radius: 100%; }
+  section #wrapper {
+    overflow: hidden;
+    width: 100%; }
+  section .content {
+    font-family: "Adobe 锟斤拷锟斤拷 Std R";
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    section .content dl {
+      height: 16.6rem;
+      width: 12rem;
+      background-color: #fff;
+      margin-bottom: 1rem; }
+    section .content dt {
+      height: 12.8rem; }
+      section .content dt img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        transition: all 0.6s; }
+        section .content dt img:hover {
+          transform: scale(1.4); }
+    section .content dd {
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+      padding-top: 0.6rem; }
+      section .content dd h3 {
+        font-size: 1.2rem;
+        color: #6a6a6a; }
+        section .content dd h3 small {
+          color: #65cbbf;
+          font-size: 1.8rem; }
+          section .content dd h3 small span {
+            font-size: 1rem; }
+      section .content dd p {
+        border: 1px solid #ff9e05;
+        border-radius: 0.4rem;
+        color: #ff9e05;
+        width: 5.3rem;
+        height: 1.5rem;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        margin-top: 0.4rem; }
+
+.swiper-container {
+  width: 100%;
+  height: 60%; }
+
+.swiper-button-prev img {
+  height: 4.4rem;
+  width: 2.7rem; }
+
+.swiper-button-next img {
+  height: 4.4rem;
+  width: 2.7rem; }
+
+/*# sourceMappingURL=COMIC.css.map */
